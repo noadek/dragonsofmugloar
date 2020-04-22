@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "module": "commonjs",
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es6",
+    // Don't emit; allow Babel to transform files.
+    "noEmit": true,
+    "lib": [
+      "es2015",
+      "es2017",
+      "dom"
+    ],
+    "jsx": "react",
+  },
+  "include": ["src"]
+}
